@@ -20,4 +20,4 @@
 
 #### 3) Перейти по адресу
 
-    http://127.0.0.1:8000/swagger/
+    http://localhost:8000/swagger/
