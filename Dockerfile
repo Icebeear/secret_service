@@ -14,7 +14,7 @@ RUN mkdir -p /notes_service
 
 COPY . /notes_service
 
-RUN pip install -r requirements.txt && python manage.py makemigrations && python manage.py migrate
+RUN pip install -r requirements.txt && python manage.py makemigrations core && python manage.py migrate
 EXPOSE 8000  
 
 # start server  
